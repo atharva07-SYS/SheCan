@@ -102,7 +102,7 @@ export default function Contact() {
             transition={{ delay: 0.2 }}
             className="lg:col-span-3"
           >
-            <div className="glass-light rounded-2xl p-8">
+            <div className="bg-white/80 dark:bg-gray-900/80 backdrop-blur-xl border border-gray-200 dark:border-white/10 shadow-sm dark:shadow-xl rounded-2xl p-8">
               <AnimatePresence mode="wait">
                 {isSubmitted ? (
                   <motion.div
